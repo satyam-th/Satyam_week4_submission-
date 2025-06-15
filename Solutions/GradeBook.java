@@ -51,7 +51,7 @@ public class GradeBook {
         }
         System.out.println("graduate student");
         graduateStudent[] gradStudents = new graduateStudent[]{
-            new graduateStudent("Samya sir", 11, new float[]{85.5f, 90.0f, 78.0f}, "AI and Machine Learning"),
+            new graduateStudent("Saumya sir", 11, new float[]{85.5f, 90.0f, 78.0f}, "AI and Machine Learning"),
             new graduateStudent("hiro", 12, new float[]{88.0f, 92.5f, 80.0f}, "Blockchain Technology"),
             new graduateStudent(" riya", 03, new float[]{75.0f, 80.5f, 70.0f}, "Quantum Computing")
         };

@@ -56,7 +56,7 @@ public class EmployeeSystem {
         Employee[] workers = new Employee[5];
         workers[0] = new Employee("hiro", "E12m", 50000);
         workers[1] = new Manager("ram", "M92c", 60000, 5000);
-        workers[2] = new developer("samya sir", "D02h", 55000, 20);
+        workers[2] = new developer("saumya sir", "D02h", 55000, 20);
         workers[3] = new Employee("David", "E19h", 52000);
         workers[4] = new Manager("sita", "m05a", 70000, 8000);
         for (Employee worker : workers) {

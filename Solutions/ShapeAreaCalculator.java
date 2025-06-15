@@ -66,6 +66,7 @@ public class ShapeAreaCalculator {
         shapes[2] = new Triangle(3, 4, 0, 3.14f);
 
         for (Shape number : shapes) {
+      
             number.ShapeArea();
         }
     }
