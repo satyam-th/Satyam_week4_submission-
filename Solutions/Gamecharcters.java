@@ -57,7 +57,7 @@ public class Gamecharcters {
         GameCharcters archer = new Archers("Legolas", "20");
         GameCharcters mage = new Mage("Gandalf", "100");
 
-        System.out.println(warrior.attack());
+        System.out.println(warrior.atta ck());
         System.out.println(archer.attack());
         System.out.println(mage.attack());
 

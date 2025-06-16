@@ -1,8 +1,8 @@
 abstract class Shape {
-    private double area;
+   
     final float pi;
-    public Shape(double area, float pi) {
-        this.area = area;
+    public Shape(float pi) {
+      
         this.pi = 3.14f; // Using float for pi
 
     }
@@ -14,10 +14,9 @@ public void ShapeArea(){
 class Circle extends Shape {
     private double radius;
 
-    public Circle(double radius, double area, float pi) {
-        super(area, pi);
+    public Circle(double radius, float pi) {
+        super(pi);
         this.radius = radius;
-        
     }
 
     @Override
@@ -30,8 +29,8 @@ class Rectangle extends Shape {
     private double length;
     private double width;
 
-    public Rectangle(double length, double width, double area, float pi) {
-        super(area, pi);
+    public Rectangle(double length, double width, float pi) {
+        super(pi);
         this.length = length;
         this.width = width;
     }
@@ -46,8 +45,8 @@ class Triangle extends Shape {
     private double base;
     private double height;
 
-    public Triangle(double base, double height, double area, float pi) {
-        super(area, pi);
+    public Triangle(double base, double height, float pi) {
+        super(pi);
         this.base = base;
         this.height = height;
     }
@@ -61,9 +60,9 @@ class Triangle extends Shape {
 public class ShapeAreaCalculator {
     public static void main(String[] args) {
       Shape[] shapes = new Shape[3];
-        shapes[0] = new Circle(5, 0, 3.14f);
-        shapes[1] = new Rectangle(4, 6, 0, 3.14f);
-        shapes[2] = new Triangle(3, 4, 0, 3.14f);
+        shapes[0] = new Circle(5, 3.14f);
+        shapes[1] = new Rectangle(4, 6, 3.14f);
+        shapes[2] = new Triangle(3, 4, 3.14f);
 
         for (Shape number : shapes) {
       
